@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int a;
+        float b;
+        String c;
+        Scanner m=new Scanner(System.in);
+        a=m.nextInt();
+        b=m.nextFloat();
+        c=m.next();
+        System.out.println(a);
+        System.out.println(b);
+            System.out.println(c);
+       
+    }
+}
