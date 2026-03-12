@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int a,b,c,d,e;
+        Scanner n=new Scanner(System.in);
+        a=n.nextInt();
+        b=n.nextInt();
+        c=n.nextInt();
+        d=a+b+c;
+        e=d/3;
+        System.out.println(e);
+    }
+}
