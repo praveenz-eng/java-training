@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int P,R,T,SI;
+        Scanner n=new Scanner(System.in);
+        P=n.nextInt();
+        R=n.nextInt();
+        T=n.nextInt();
+        SI=(P*R*T)/100;
+        System.out.println(SI);
+    }
+}
