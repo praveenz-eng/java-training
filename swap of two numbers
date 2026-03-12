@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       
+        int temp,a,b;
+        Scanner m=new Scanner(System.in);
+        a=m.nextInt();
+        b=m.nextInt();
+        temp=a;
+        a=b;
+        b=temp;
+        
+    
+        System.out.print(a+" "+b);
+        
+        
+    }
+}
