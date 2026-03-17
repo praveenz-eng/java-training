@@ -1,0 +1,14 @@
+import java.util.*;
+public class Even{
+    public static void main(String args[]){
+        int n,temp=0,i,sum=0;
+        Scanner v=new Scanner(System.in);
+        n=v.nextInt();
+        for(i=1;i<=n;i++)
+           if(i%5==0)
+              temp=temp+i;
+              
+              
+              System.out.println(temp);
+    }
+    }
