@@ -1,0 +1,16 @@
+import java.util.*;
+public class Test{
+    public static void main(String[]args){
+        int n,i,count=1;
+        Scanner v=new Scanner(System.in);
+        n=v.nextInt();
+        int arr[]=new int[50];
+        for(i=0;i<n;i++){
+            arr[i]=v.nextInt();
+        }
+        for(i=0;i<n;i++){
+            count=count*arr[i];
+        }
+        System.out.println(count);
+    }
+    }
